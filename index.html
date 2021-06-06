@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserted</title>
+</head>
+
+<body>
+    <form action="/insert" method="POST">
+        <label for="">Roll:</label>
+        <input type="text" name="roll" id=""><br>
+        <label for="">Name</label>
+        <input type="text" name="name" id=""><br>
+        <label for="">Email:</label>
+        <input type="text" name="email" id="">
+        <button type="submit">Submit</button>
+    </form>
+    <form action="/del" method="post">
+        <br><br>
+        <label for="">Delete:</label>
+        <input type="text" name="roll">
+        <button type="submit">Delete</button>
+    </form>
+    <form action="/getDetails" method="get">
+        <br><br>
+        <button type="submit">Details</button>
+    </form>
+</body>
+
+</html>
